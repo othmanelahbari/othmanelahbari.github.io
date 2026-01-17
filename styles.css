@@ -56,8 +56,6 @@
 html {
     scroll-behavior: smooth;
     font-size: 16px;
-    overflow-x: hidden;
-    max-width: 100vw;
 }
 
 body {
@@ -65,9 +63,6 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     background-color: var(--white);
-    overflow-x: hidden;
-    max-width: 100vw;
-    position: relative;
 }
 
 body.rtl {
@@ -121,8 +116,6 @@ a {
 
 .section {
     padding: var(--spacing-xl) 0;
-    max-width: 100vw;
-    overflow-x: hidden;
 }
 
 .section-subtitle {
@@ -251,7 +244,7 @@ a {
     right: 0;
     bottom: 0;
     background: url('assets/images/hero/sipyanos-hero.jpg') center/cover no-repeat;
-    opacity: 0.5;
+    opacity: .3;
     animation: slowZoom 30s ease-in-out infinite alternate;
 }
 
@@ -266,7 +259,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 119, 190, 0.4));
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 119, 190, 0.4)); */
 }
 
 .hero-content {
@@ -372,7 +365,7 @@ a {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--spacing-md);
     margin-top: var(--spacing-lg);
 }
@@ -521,7 +514,7 @@ a {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--spacing-md);
     margin-top: var(--spacing-lg);
 }
@@ -675,7 +668,7 @@ a {
 
 .youtube-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--spacing-md);
     margin-top: var(--spacing-lg);
 }
@@ -713,7 +706,7 @@ a {
 
 .certifications-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--spacing-lg);
     margin-top: var(--spacing-lg);
 }
@@ -799,7 +792,7 @@ a {
 
 .testimonials-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--spacing-md);
     margin-top: var(--spacing-lg);
 }
@@ -1221,6 +1214,9 @@ a {
     
     .hero {
         min-height: 500px;
+    }
+    .hero::before {
+         background: url('assets/images/hero/sipyanos-hero.jpg') 80%/cover no-repeat;
     }
     
     .hero-buttons {
