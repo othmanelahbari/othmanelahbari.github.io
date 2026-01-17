@@ -1176,29 +1176,68 @@ a {
 /* ========================================
    RTL OVERRIDES
    ======================================== */
-.rtl .nav-links {
-    flex-direction: row-reverse;
-}
-
-.rtl .hero-buttons {
-    flex-direction: row-reverse;
-}
-
-.rtl .about-content {
+body.rtl .nav-links {
     direction: rtl;
 }
 
-.rtl .contact-item {
-    flex-direction: row-reverse;
+body.rtl .hero-buttons {
+    direction: rtl;
 }
 
-.rtl .social-buttons {
-    flex-direction: row-reverse;
+body.rtl .about-content {
+    direction: rtl;
 }
 
-.rtl .whatsapp-float {
+body.rtl .contact-item {
+    direction: rtl;
+}
+
+body.rtl .contact-item:hover {
+    transform: translateX(-10px);
+}
+
+body.rtl .social-buttons {
+    direction: rtl;
+}
+
+body.rtl .whatsapp-float {
     right: auto;
     left: 20px;
+}
+
+body.rtl .service-card {
+    direction: rtl;
+}
+
+body.rtl .testimonial-card {
+    direction: rtl;
+}
+
+body.rtl .testimonial-card .author {
+    text-align: right;
+}
+
+body.rtl .certification-card {
+    direction: rtl;
+}
+
+body.rtl .footer-section ul li a:hover {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+body.rtl .cert-badge {
+    margin-right: 0;
+    margin-left: var(--spacing-xs);
+}
+
+body.rtl .mobile-menu {
+    direction: rtl;
+}
+
+body.rtl .mobile-menu a:hover {
+    padding-right: var(--spacing-md);
+    padding-left: var(--spacing-sm);
 }
 
 /* ========================================
