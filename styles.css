@@ -117,7 +117,7 @@ a {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 var(--spacing-sm);
+    padding: 0 var(--spacing-md);
     box-sizing: border-box;
 }
 
