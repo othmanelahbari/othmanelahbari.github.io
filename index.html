@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sipyanos Diving Morocco - Professional diving instructor, spearfishing monitoring, underwater recovery, and content creation. CMAS certified instructor with 2-star certification.">
+    <meta name="keywords" content="diving morocco, plongée maroc, diving instructor, moniteur plongée, spearfishing, chasse sous-marine, underwater recovery, CMAS">
+    <title>Sipyanos Diving Morocco - Professional Diving Services</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-water"></i>
+                <span>Sipyanos Diving</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" data-i18n="nav.home">Accueil</a></li>
+                <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                <li><a href="#about" data-i18n="nav.about">À Propos</a></li>
+                <li><a href="#gallery" data-i18n="nav.gallery">Galerie</a></li>
+                <li><a href="#certifications" data-i18n="nav.certifications">Certifications</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="language-switcher">
+                <button onclick="changeLanguage('fr')" data-lang="fr" class="active">FR</button>
+                <button onclick="changeLanguage('en')" data-lang="en">EN</button>
+                <button onclick="changeLanguage('ar')" data-lang="ar">AR</button>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 data-i18n="hero.title" data-aos="fade-up">Plongez dans l'Aventure avec Sipyanos</h1>
+            <p data-i18n="hero.subtitle" data-aos="fade-up" data-aos-delay="100">Instructeur professionnel certifié CMAS ★★ | Moniteur de plongée et chasse sous-marine au Maroc</p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="200">
+                <a href="#services" class="button button-primary" data-i18n="hero.cta1">Découvrir les Services</a>
+                <a href="#contact" class="button button-secondary" data-i18n="hero.cta2">Me Contacter</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 data-i18n="services.title" data-aos="fade-up">Mes Services Professionnels</h2>
+            <p class="section-subtitle" data-i18n="services.subtitle" data-aos="fade-up" data-aos-delay="100">Des services de plongée complets adaptés à vos besoins</p>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="service-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3 data-i18n="services.service1.title">Moniteur de Plongée</h3>
+                    <p data-i18n="services.service1.description">Formation et encadrement professionnel pour tous niveaux. Certifié CMAS 2 étoiles pour garantir votre sécurité et progression.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3 data-i18n="services.service2.title">Chasse Sous-Marine</h3>
+                    <p data-i18n="services.service2.description">Encadrement et monitoring pour la chasse sous-marine. Apprenez les techniques et règles de sécurité avec un professionnel expérimenté.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 data-i18n="services.service3.title">Récupération Sous-Marine</h3>
+                    <p data-i18n="services.service3.description">Service de recherche et récupération d'objets perdus dans les piscines, ports, et zones aquatiques. Intervention rapide et professionnelle.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3 data-i18n="services.service4.title">Création de Contenu</h3>
+                    <p data-i18n="services.service4.description">Collaboration pour la création de contenu sous-marin. Photographie et vidéographie professionnelle pour vos projets aquatiques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2 data-i18n="about.title">À Propos d'Othmane Sipyanos</h2>
+                    <p data-i18n="about.description1">Passionné par le monde sous-marin depuis mon plus jeune âge, je suis Othmane Sipyanos, instructeur de plongée professionnel certifié CMAS 2 étoiles basé au Maroc.</p>
+                    <p data-i18n="about.description2">Avec plusieurs années d'expérience dans l'enseignement de la plongée, la chasse sous-marine et la création de contenu aquatique, je mets mes compétences au service de votre passion pour l'océan.</p>
+                    <p data-i18n="about.description3">Ma mission est de partager ma passion pour la plongée tout en garantissant votre sécurité et votre progression dans ce magnifique univers sous-marin.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-i18n="about.stats.experience">5+</span>
+                            <span class="stat-label" data-i18n="about.stats.experienceLabel">Années d'Expérience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">★★</span>
+                            <span class="stat-label" data-i18n="about.stats.cmasLabel">CMAS Instructeur</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-i18n="about.stats.students">200+</span>
+                            <span class="stat-label" data-i18n="about.stats.studentsLabel">Plongeurs Formés</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="assets/images/hero/sipyanos-hero.jpg" alt="Othmane Sipyanos - Diving Instructor" loading="lazy">
+                    <div class="about-image-overlay">
+                        <i class="fas fa-certificate"></i>
+                        <span data-i18n="about.certified">Certifié CMAS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <h2 data-i18n="gallery.title" data-aos="fade-up">Galerie</h2>
+            <p class="section-subtitle" data-i18n="gallery.subtitle" data-aos="fade-up" data-aos-delay="100">Découvrez mes aventures sous-marines</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item position-top" data-aos="zoom-in" data-aos-delay="0">
+                    <img src="assets/images/gallery/adventure-3.jpg" alt="Diving Adventure 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="assets/images/gallery/adventure-2.jpg" alt="Diving Adventure 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="assets/images/gallery/adventure-1.jpg" alt="Diving Adventure 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- YouTube Videos Section -->
+            <div class="youtube-section" data-aos="fade-up">
+                <h3 data-i18n="gallery.videosTitle">Mes Vidéos</h3>
+                <p data-i18n="gallery.videosSubtitle">Suivez mes aventures sur YouTube</p>
+                
+                <div class="youtube-grid">
+                    <div class="youtube-item" data-aos="fade-up" data-aos-delay="0">
+                        <iframe src="https://www.youtube-nocookie.com/embed/iAtpr79VaZY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="youtube-item" data-aos="fade-up" data-aos-delay="100">
+                       <iframe src="https://www.youtube-nocookie.com/embed/Zdz8_VoUcFw" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="youtube-item" data-aos="fade-up" data-aos-delay="200">
+                     <iframe src="https://www.youtube-nocookie.com/embed/clLSKEYn0gQ" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+                <div class="youtube-cta">
+                    <a href="https://www.youtube.com/@othmanesipyanos" target="_blank" rel="noopener noreferrer" class="button button-primary">
+                        <i class="fab fa-youtube"></i>
+                        <span data-i18n="gallery.channelButton">Visiter Ma Chaîne YouTube</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <h2 data-i18n="certifications.title" data-aos="fade-up">Certifications CMAS</h2>
+            <p class="section-subtitle" data-i18n="certifications.subtitle" data-aos="fade-up" data-aos-delay="100">Confédération Mondiale des Activités Subaquatiques</p>
+            
+            <div class="certifications-grid">
+                <div class="certification-card" data-aos="flip-left" data-aos-delay="0">
+                    <div class="certification-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span class="stars">★★</span>
+                    </div>
+                    <h3 data-i18n="certifications.instructor.title">Moniteur Instructeur</h3>
+                    <p class="cert-level">CMAS 2 Étoiles</p>
+                    <p data-i18n="certifications.instructor.description">Certification internationale d'instructeur de plongée CMAS niveau 2 étoiles. Habilité à former et certifier des plongeurs de tous niveaux.</p>
+                </div>
+
+                <div class="certification-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="certification-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span class="stars">★★★</span>
+                    </div>
+                    <h3 data-i18n="certifications.diver.title">Plongeur</h3>
+                    <p class="cert-level">CMAS 3 Étoiles</p>
+                    <p data-i18n="certifications.diver.description">Certification de plongeur CMAS niveau 3 étoiles. Compétences avancées en plongée autonome et technique.</p>
+                </div>
+            </div>
+
+            <div class="cmas-info" data-aos="fade-up">
+                <p data-i18n="certifications.cmasInfo">CMAS (Confédération Mondiale des Activités Subaquatiques) est une organisation internationale reconnue mondialement pour ses standards d'excellence en plongée sous-marine.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <h2 data-i18n="testimonials.title" data-aos="fade-up">Témoignages</h2>
+            <p class="section-subtitle" data-i18n="testimonials.subtitle" data-aos="fade-up" data-aos-delay="100">Ce que disent mes clients</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="stars">★★★★★</div>
+                    <p data-i18n="testimonials.review1.text">"Othmane est un instructeur exceptionnel ! Très professionnel, patient et passionné. Grâce à lui, j'ai obtenu ma certification de plongée en toute confiance. Je recommande vivement ses services."</p>
+                    <div class="author">
+                        <strong data-i18n="testimonials.review1.name">Mohammed A.</strong>
+                        <span data-i18n="testimonials.review1.location">Casablanca, Maroc</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stars">★★★★★</div>
+                    <p data-i18n="testimonials.review2.text">"Service de récupération d'objets impeccable ! J'avais perdu mes clés dans la piscine et Othmane les a retrouvées en moins de 30 minutes. Très professionnel et réactif."</p>
+                    <div class="author">
+                        <strong data-i18n="testimonials.review2.name">Sarah L.</strong>
+                        <span data-i18n="testimonials.review2.location">Rabat, Maroc</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stars">★★★★★</div>
+                    <p data-i18n="testimonials.review3.text">"Excellent moniteur de chasse sous-marine. Othmane m'a appris toutes les techniques de sécurité et de pêche responsable. Une expérience incroyable avec un vrai professionnel."</p>
+                    <div class="author">
+                        <strong data-i18n="testimonials.review3.name">Youssef K.</strong>
+                        <span data-i18n="testimonials.review3.location">Agadir, Maroc</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 data-i18n="contact.title" data-aos="fade-up">Contactez-Moi</h2>
+            <p class="section-subtitle" data-i18n="contact.subtitle" data-aos="fade-up" data-aos-delay="100">Prêt à plonger ? Discutons de votre projet</p>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h3 data-i18n="contact.whatsapp">WhatsApp</h3>
+                            <a href="https://wa.me/212615644280" target="_blank" rel="noopener noreferrer">+212 615-644280</a>
+                            <p class="contact-note" data-i18n="contact.whatsappNote">Méthode de contact préférée</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3 data-i18n="contact.email">Email</h3>
+                            <a href="mailto:sipyanoseothmane@gmail.com">sipyanoseothmane@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3 data-i18n="contact.location">Localisation</h3>
+                            <p data-i18n="contact.locationText">Maroc</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links-contact">
+                        <h3 data-i18n="contact.followMe">Suivez-Moi</h3>
+                        <div class="social-buttons">
+                            <a href="https://www.facebook.com/othmane.talix" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/gonzalesstalix/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@othmanesipyanos" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" data-aos="fade-left">
+                    <h3 data-i18n="contact.formTitle">Envoyez un Message</h3>
+                    <input type="text" id="name" placeholder="Votre nom" data-i18n-placeholder="contact.namePlaceholder" required>
+                    <input type="tel" id="phone" placeholder="Votre téléphone" data-i18n-placeholder="contact.phonePlaceholder" required>
+                    <select id="service">
+                        <option value="" data-i18n="contact.serviceSelect">Sélectionnez un service</option>
+                        <option value="diving" data-i18n="contact.serviceDiving">Moniteur de Plongée</option>
+                        <option value="spearfishing" data-i18n="contact.serviceSpearfishing">Chasse Sous-Marine</option>
+                        <option value="recovery" data-i18n="contact.serviceRecovery">Récupération Sous-Marine</option>
+                        <option value="content" data-i18n="contact.serviceContent">Création de Contenu</option>
+                        <option value="other" data-i18n="contact.serviceOther">Autre</option>
+                    </select>
+                    <textarea id="message" placeholder="Votre message" data-i18n-placeholder="contact.messagePlaceholder" rows="5" required></textarea>
+                    <button type="submit" class="button button-primary">
+                        <i class="fab fa-whatsapp"></i>
+                        <span data-i18n="contact.sendButton">Envoyer via WhatsApp</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sipyanos Diving</h3>
+                    <p data-i18n="footer.description">Instructeur de plongée professionnel certifié CMAS au Maroc. Votre partenaire pour toutes vos aventures sous-marines.</p>
+                    <div class="footer-certifications">
+                        <span data-i18n="footer.certified">Certifié</span>
+                        <span class="cert-badge">CMAS ★★ Instructeur</span>
+                        <span class="cert-badge">CMAS ★★★ Plongeur</span>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3 data-i18n="footer.quickLinks">Liens Rapides</h3>
+                    <ul>
+                        <li><a href="#home" data-i18n="nav.home">Accueil</a></li>
+                        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                        <li><a href="#about" data-i18n="nav.about">À Propos</a></li>
+                        <li><a href="#gallery" data-i18n="nav.gallery">Galerie</a></li>
+                        <li><a href="#certifications" data-i18n="nav.certifications">Certifications</a></li>
+                        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 data-i18n="footer.services">Services</h3>
+                    <ul>
+                        <li data-i18n="services.service1.title">Moniteur de Plongée</li>
+                        <li data-i18n="services.service2.title">Chasse Sous-Marine</li>
+                        <li data-i18n="services.service3.title">Récupération Sous-Marine</li>
+                        <li data-i18n="services.service4.title">Création de Contenu</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 data-i18n="footer.followUs">Suivez-Moi</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/othmane.talix" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/gonzalesstalix/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@othmanesipyanos" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://wa.me/212615644280" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sipyanos Diving - Othmane Sipyanos. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+                <p class="webrapide-credit"><span data-i18n="footer.createdby">Site créé par</span> <a href="https://webrapide.ma" target="_blank" rel="noopener noreferrer"><strong>WebRapide</strong></a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/212615644280" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contact via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="lightbox-content">
+            <img id="lightboxImage" src="" alt="Gallery image">
+        </div>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
