@@ -389,8 +389,8 @@ function scrollToSection(id) {
 // Get default language
 function getDefaultLanguage() {
     const savedLang = localStorage.getItem('preferredLanguage');
-    const browserLang = navigator.language.split('-')[0];
-    return savedLang || (['fr', 'en', 'ar'].includes(browserLang) ? browserLang : 'fr');
+    // Default to English unless user has saved preference
+    return savedLang && ['fr', 'en', 'ar'].includes(savedLang) ? savedLang : 'en';
 }
 
 // ========================================
