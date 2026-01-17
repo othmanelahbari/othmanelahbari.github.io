@@ -233,6 +233,50 @@ a {
     padding: var(--spacing-xs);
 }
 
+/* Mobile Menu */
+.mobile-menu {
+    position: fixed;
+    top: 65px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 65px);
+    background: var(--secondary-color);
+    padding: var(--spacing-md);
+    box-shadow: var(--shadow-lg);
+    transition: left var(--transition-normal);
+    z-index: 999;
+    overflow-y: auto;
+}
+
+.mobile-menu.active {
+    left: 0;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-menu li {
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobile-menu a {
+    display: block;
+    padding: var(--spacing-sm);
+    color: var(--white);
+    font-weight: 500;
+    transition: all var(--transition-fast);
+}
+
+.mobile-menu a:hover {
+    background: rgba(0, 212, 255, 0.1);
+    color: var(--accent-color);
+    padding-left: var(--spacing-md);
+}
+
 /* ========================================
    HERO SECTION
    ======================================== */
@@ -385,7 +429,7 @@ a {
 
 .service-card {
     background: var(--white);
-    padding: var(--spacing-lg);
+    padding: var(--spacing-md);
     border-radius: 16px;
     text-align: center;
     box-shadow: var(--shadow-sm);
@@ -1164,7 +1208,32 @@ a {
 /* Tablet */
 @media (max-width: 1024px) {
     .nav-links {
-        display: none;
+        position: fixed;
+        top: 65px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 73px);
+        background: var(--secondary-color);
+        flex-direction: column;
+        padding: var(--spacing-md);
+        box-shadow: var(--shadow-lg);
+        transition: all var(--transition-normal);
+        gap: 0;
+        z-index: 999;
+    }
+    
+    .nav-links.active {
+        left: 0;
+    }
+    
+    .nav-links li {
+        width: 100%;
+    }
+    
+    .nav-links a {
+        display: block;
+        padding: var(--spacing-sm);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
     
     .mobile-menu-toggle {
@@ -1305,10 +1374,6 @@ a {
         font-size: 1.5rem;
     }
     
-    .language-switcher button {
-        padding: 0.25rem 0.4rem;
-        font-size: 0.7rem;
-    }
 }
 
 /* ========================================

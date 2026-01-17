@@ -18,40 +18,40 @@ const translations = {
         },
         hero: {
             title: 'Plongez dans l\'Aventure avec Sipyanos',
-            subtitle: 'Instructeur professionnel certifié CMAS ★★ | Moniteur de plongée et chasse sous-marine au Maroc',
+            subtitle: 'Instructeur Professionnel Certifié CMAS ★★ | Spécialiste en Plongée et Chasse Sous-Marine au Maroc',
             cta1: 'Découvrir les Services',
             cta2: 'Me Contacter'
         },
         services: {
             title: 'Mes Services Professionnels',
-            subtitle: 'Des services de plongée complets adaptés à vos besoins',
+            subtitle: 'Une expertise complète au service de votre passion pour le monde sous-marin',
             service1: {
-                title: 'Moniteur de Plongée',
-                description: 'Formation et encadrement professionnel pour tous niveaux. Certifié CMAS 2 étoiles pour garantir votre sécurité et progression.'
+                title: 'Formation à la Plongée',
+                description: 'Enseignement professionnel pour débutants et plongeurs expérimentés. Certification CMAS 2 étoiles garantissant votre sécurité et votre progression à chaque étape.'
             },
             service2: {
                 title: 'Chasse Sous-Marine',
-                description: 'Encadrement et monitoring pour la chasse sous-marine. Apprenez les techniques et règles de sécurité avec un professionnel expérimenté.'
+                description: 'Formation complète aux techniques de chasse responsable. Apprentissage des règles de sécurité et des pratiques durables avec un expert qualifié.'
             },
             service3: {
-                title: 'Récupération Sous-Marine',
-                description: 'Service de recherche et récupération d\'objets perdus dans les piscines, ports, et zones aquatiques. Intervention rapide et professionnelle.'
+                title: 'Récupération d\'Objets',
+                description: 'Service professionnel de recherche et récupération d\'objets perdus en milieu aquatique. Intervention efficace dans les piscines, ports et plans d\'eau.'
             },
             service4: {
-                title: 'Création de Contenu',
-                description: 'Collaboration pour la création de contenu sous-marin. Photographie et vidéographie professionnelle pour vos projets aquatiques.'
+                title: 'Production de Contenu',
+                description: 'Réalisation de contenus visuels sous-marins de qualité professionnelle. Photographie et vidéographie pour vos projets médiatiques et commerciaux.'
             }
         },
         about: {
             title: 'À Propos d\'Othmane Sipyanos',
-            description1: 'Passionné par le monde sous-marin depuis mon plus jeune âge, je suis Othmane Sipyanos, instructeur de plongée professionnel certifié CMAS 2 étoiles basé au Maroc.',
-            description2: 'Avec plusieurs années d\'expérience dans l\'enseignement de la plongée, la chasse sous-marine et la création de contenu aquatique, je mets mes compétences au service de votre passion pour l\'océan.',
-            description3: 'Ma mission est de partager ma passion pour la plongée tout en garantissant votre sécurité et votre progression dans ce magnifique univers sous-marin.',
+            description1: 'Passionné par l\'univers sous-marin depuis l\'enfance, je suis instructeur de plongée professionnel certifié CMAS 2 étoiles, établi au Maroc.',
+            description2: 'Fort de plusieurs années d\'expérience en formation de plongée, chasse sous-marine et production de contenus aquatiques, je mets mon expertise au service de votre découverte des fonds marins.',
+            description3: 'Mon engagement : vous transmettre ma passion pour la plongée dans un cadre sécurisé, tout en respectant l\'environnement marin et en favorisant votre progression personnelle.',
             stats: {
                 experience: '5+',
                 experienceLabel: 'Années d\'Expérience',
-                cmasLabel: 'CMAS Instructeur',
-                students: '200+',
+                cmasLabel: 'Instructeur CMAS',
+                students: '50+',
                 studentsLabel: 'Plongeurs Formés'
             },
             certified: 'Certifié CMAS'
@@ -66,32 +66,32 @@ const translations = {
         },
         certifications: {
             title: 'Certifications CMAS',
-            subtitle: 'Confédération Mondiale des Activités Subaquatiques',
+            subtitle: 'Confédération Mondiale des Activités Subaquatiques - Standards Internationaux',
             instructor: {
-                title: 'Moniteur Instructeur',
-                description: 'Certification internationale d\'instructeur de plongée CMAS niveau 2 étoiles. Habilité à former et certifier des plongeurs de tous niveaux.'
+                title: 'Instructeur Niveau 2 Étoiles',
+                description: 'Certification internationale d\'instructeur CMAS niveau 2 étoiles. Qualification complète pour former et certifier des plongeurs de tous niveaux selon les standards internationaux.'
             },
             diver: {
-                title: 'Plongeur',
-                description: 'Certification de plongeur CMAS niveau 3 étoiles. Compétences avancées en plongée autonome et technique.'
+                title: 'Plongeur Niveau 3 Étoiles',
+                description: 'Certification de plongeur CMAS niveau 3 étoiles. Maîtrise avancée de la plongée autonome avec compétences en plongée technique et profonde.'
             },
-            cmasInfo: 'CMAS (Confédération Mondiale des Activités Subaquatiques) est une organisation internationale reconnue mondialement pour ses standards d\'excellence en plongée sous-marine.'
+            cmasInfo: 'CMAS (Confédération Mondiale des Activités Subaquatiques) est l\'organisation internationale de référence en plongée sous-marine, reconnue dans plus de 130 pays pour ses standards d\'excellence et de sécurité.'
         },
         testimonials: {
             title: 'Témoignages',
-            subtitle: 'Ce que disent mes clients',
+            subtitle: 'Retours d\'expérience de mes clients',
             review1: {
-                text: 'Othmane est un instructeur exceptionnel ! Très professionnel, patient et passionné. Grâce à lui, j\'ai obtenu ma certification de plongée en toute confiance. Je recommande vivement ses services.',
+                text: 'Instructeur exceptionnel ! Très professionnel, pédagogue et passionné. Grâce à Othmane, j\'ai obtenu ma certification de plongée en toute confiance. Je recommande vivement ses services à tous ceux qui souhaitent découvrir la plongée.',
                 name: 'Mohammed A.',
                 location: 'Casablanca, Maroc'
             },
             review2: {
-                text: 'Service de récupération d\'objets impeccable ! J\'avais perdu mes clés dans la piscine et Othmane les a retrouvées en moins de 30 minutes. Très professionnel et réactif.',
+                text: 'Service de récupération impeccable ! J\'avais perdu mes clés de voiture dans la piscine et Othmane les a retrouvées en moins de 30 minutes. Très professionnel, rapide et efficace.',
                 name: 'Sarah L.',
                 location: 'Rabat, Maroc'
             },
             review3: {
-                text: 'Excellent moniteur de chasse sous-marine. Othmane m\'a appris toutes les techniques de sécurité et de pêche responsable. Une expérience incroyable avec un vrai professionnel.',
+                text: 'Excellent formateur en chasse sous-marine. Othmane m\'a transmis toutes les techniques de sécurité et les principes de pêche responsable. Une expérience enrichissante avec un véritable professionnel.',
                 name: 'Youssef K.',
                 location: 'Agadir, Maroc'
             }
@@ -118,7 +118,7 @@ const translations = {
             sendButton: 'Envoyer via WhatsApp'
         },
         footer: {
-            description: 'Instructeur de plongée professionnel certifié CMAS au Maroc. Votre partenaire pour toutes vos aventures sous-marines.',
+            description: 'Instructeur de plongée professionnel certifié CMAS au Maroc. Votre partenaire de confiance pour toutes vos aventures sous-marines en toute sécurité.',
             certified: 'Certifié',
             quickLinks: 'Liens Rapides',
             services: 'Services',
@@ -138,40 +138,40 @@ const translations = {
         },
         hero: {
             title: 'Dive into Adventure with Sipyanos',
-            subtitle: 'CMAS ★★ Certified Professional Instructor | Diving & Spearfishing Monitor in Morocco',
+            subtitle: 'CMAS ★★ Certified Professional Instructor | Expert in Diving & Spearfishing in Morocco',
             cta1: 'Discover Services',
             cta2: 'Contact Me'
         },
         services: {
             title: 'My Professional Services',
-            subtitle: 'Complete diving services tailored to your needs',
+            subtitle: 'Comprehensive expertise dedicated to your underwater passion',
             service1: {
-                title: 'Diving Instructor',
-                description: 'Professional training and supervision for all levels. CMAS 2-star certified to ensure your safety and progression.'
+                title: 'Diving Instruction',
+                description: 'Professional training for beginners and experienced divers. CMAS 2-star certification ensuring your safety and progression at every step.'
             },
             service2: {
-                title: 'Spearfishing',
-                description: 'Supervision and monitoring for spearfishing. Learn techniques and safety rules with an experienced professional.'
+                title: 'Spearfishing Training',
+                description: 'Complete training in responsible spearfishing techniques. Learning safety protocols and sustainable practices with a qualified expert.'
             },
             service3: {
-                title: 'Underwater Recovery',
-                description: 'Search and recovery service for lost items in pools, harbors, and aquatic areas. Fast and professional intervention.'
+                title: 'Object Recovery',
+                description: 'Professional search and recovery service for lost items in aquatic environments. Efficient intervention in pools, harbors, and water bodies.'
             },
             service4: {
-                title: 'Content Creation',
-                description: 'Collaboration for underwater content creation. Professional photography and videography for your aquatic projects.'
+                title: 'Content Production',
+                description: 'Professional-quality underwater visual content creation. Photography and videography for your media and commercial projects.'
             }
         },
         about: {
             title: 'About Othmane Sipyanos',
-            description1: 'Passionate about the underwater world since childhood, I am Othmane Sipyanos, a CMAS 2-star certified professional diving instructor based in Morocco.',
-            description2: 'With several years of experience in dive instruction, spearfishing, and aquatic content creation, I put my skills at the service of your passion for the ocean.',
-            description3: 'My mission is to share my passion for diving while ensuring your safety and progression in this magnificent underwater universe.',
+            description1: 'Passionate about the underwater world since childhood, I am a CMAS 2-star certified professional diving instructor based in Morocco.',
+            description2: 'With several years of experience in dive training, spearfishing, and aquatic content production, I bring my expertise to your exploration of marine environments.',
+            description3: 'My commitment: sharing my passion for diving in a safe environment while respecting marine ecosystems and fostering your personal development.',
             stats: {
                 experience: '5+',
                 experienceLabel: 'Years of Experience',
                 cmasLabel: 'CMAS Instructor',
-                students: '200+',
+                students: '50+',
                 studentsLabel: 'Trained Divers'
             },
             certified: 'CMAS Certified'
@@ -186,32 +186,32 @@ const translations = {
         },
         certifications: {
             title: 'CMAS Certifications',
-            subtitle: 'World Underwater Federation',
+            subtitle: 'World Underwater Federation - International Standards',
             instructor: {
-                title: 'Instructor Monitor',
-                description: 'CMAS 2-star international dive instructor certification. Qualified to train and certify divers of all levels.'
+                title: '2-Star Instructor',
+                description: 'CMAS 2-star international dive instructor certification. Full qualification to train and certify divers of all levels according to international standards.'
             },
             diver: {
-                title: 'Diver',
-                description: 'CMAS 3-star diver certification. Advanced skills in autonomous and technical diving.'
+                title: '3-Star Diver',
+                description: 'CMAS 3-star diver certification. Advanced mastery of autonomous diving with technical and deep diving skills.'
             },
-            cmasInfo: 'CMAS (World Underwater Federation) is an internationally recognized organization for excellence standards in scuba diving.'
+            cmasInfo: 'CMAS (World Underwater Federation) is the leading international organization in scuba diving, recognized in over 130 countries for its excellence and safety standards.'
         },
         testimonials: {
             title: 'Testimonials',
-            subtitle: 'What my clients say',
+            subtitle: 'Client experiences and feedback',
             review1: {
-                text: 'Othmane is an exceptional instructor! Very professional, patient, and passionate. Thanks to him, I got my diving certification with confidence. I highly recommend his services.',
+                text: 'Exceptional instructor! Very professional, pedagogical, and passionate. Thanks to Othmane, I obtained my diving certification with complete confidence. I highly recommend his services to anyone wanting to discover diving.',
                 name: 'Mohammed A.',
                 location: 'Casablanca, Morocco'
             },
             review2: {
-                text: 'Impeccable object recovery service! I had lost my keys in the pool and Othmane found them in less than 30 minutes. Very professional and responsive.',
+                text: 'Impeccable recovery service! I had lost my car keys in the pool and Othmane found them in less than 30 minutes. Very professional, fast, and efficient.',
                 name: 'Sarah L.',
                 location: 'Rabat, Morocco'
             },
             review3: {
-                text: 'Excellent spearfishing instructor. Othmane taught me all the safety techniques and responsible fishing. An incredible experience with a true professional.',
+                text: 'Excellent spearfishing trainer. Othmane taught me all safety techniques and responsible fishing principles. An enriching experience with a true professional.',
                 name: 'Youssef K.',
                 location: 'Agadir, Morocco'
             }
@@ -238,7 +238,7 @@ const translations = {
             sendButton: 'Send via WhatsApp'
         },
         footer: {
-            description: 'CMAS certified professional diving instructor in Morocco. Your partner for all your underwater adventures.',
+            description: 'CMAS certified professional diving instructor in Morocco. Your trusted partner for all your underwater adventures in complete safety.',
             certified: 'Certified',
             quickLinks: 'Quick Links',
             services: 'Services',
@@ -251,114 +251,114 @@ const translations = {
         nav: {
             home: 'الرئيسية',
             services: 'الخدمات',
-            about: 'نبذة عني',
+            about: 'عن المدرب',
             gallery: 'المعرض',
             certifications: 'الشهادات',
-            contact: 'اتصل بي'
+            contact: 'تواصل معي'
         },
         hero: {
-            title: 'اغطس في المغامرة مع سيبيانوس',
-            subtitle: 'مدرب محترف معتمد من CMAS ★★ | مراقب غوص وصيد تحت الماء في المغرب',
-            cta1: 'اكتشف الخدمات',
-            cta2: 'اتصل بي'
+            title: 'اكتشف عالم الغوص مع سيبيانوس',
+            subtitle: 'مدرب محترف معتمد من CMAS ★★ | متخصص في الغوص والصيد البحري في المغرب',
+            cta1: 'استكشف الخدمات',
+            cta2: 'تواصل معي'
         },
         services: {
-            title: 'خدماتي المهنية',
-            subtitle: 'خدمات غوص شاملة مصممة خصيصاً لاحتياجاتك',
+            title: 'خدماتي المتخصصة',
+            subtitle: 'خبرة شاملة في خدمة شغفك بعالم البحار',
             service1: {
-                title: 'مدرب غوص',
-                description: 'تدريب وإشراف محترف لجميع المستويات. معتمد من CMAS نجمتان لضمان سلامتك وتقدمك.'
+                title: 'تدريب الغوص',
+                description: 'تدريب احترافي للمبتدئين والغواصين ذوي الخبرة. شهادة CMAS نجمتان تضمن سلامتك وتطورك في كل مرحلة.'
             },
             service2: {
-                title: 'صيد تحت الماء',
-                description: 'إشراف ومراقبة للصيد تحت الماء. تعلم التقنيات وقواعد السلامة مع محترف ذي خبرة.'
+                title: 'الصيد البحري',
+                description: 'تدريب شامل على تقنيات الصيد المسؤول. تعلم قواعد السلامة والممارسات المستدامة مع خبير مؤهل.'
             },
             service3: {
-                title: 'استعادة تحت الماء',
-                description: 'خدمة البحث واستعادة الأشياء المفقودة في المسابح والموانئ والمناطق المائية. تدخل سريع ومحترف.'
+                title: 'استرجاع المفقودات',
+                description: 'خدمة احترافية للبحث واسترجاع الأشياء المفقودة في البيئات المائية. تدخل فعال في المسابح والموانئ والمسطحات المائية.'
             },
             service4: {
-                title: 'إنشاء المحتوى',
-                description: 'تعاون لإنشاء محتوى تحت الماء. تصوير احترافي وفيديو لمشاريعك المائية.'
+                title: 'إنتاج المحتوى',
+                description: 'إنتاج محتوى مرئي بحري بجودة احترافية. تصوير فوتوغرافي وفيديو لمشاريعك الإعلامية والتجارية.'
             }
         },
         about: {
             title: 'نبذة عن عثمان سيبيانوس',
-            description1: 'شغوف بالعالم تحت الماء منذ صغري، أنا عثمان سيبيانوس، مدرب غوص محترف معتمد من CMAS نجمتان ومقره في المغرب.',
-            description2: 'مع عدة سنوات من الخبرة في تدريس الغوص والصيد تحت الماء وإنشاء المحتوى المائي، أضع مهاراتي في خدمة شغفك بالمحيط.',
-            description3: 'مهمتي هي مشاركة شغفي بالغوص مع ضمان سلامتك وتقدمك في هذا العالم الرائع تحت الماء.',
+            description1: 'شغوف بعالم البحار منذ الصغر، أنا مدرب غوص محترف حاصل على شهادة CMAS نجمتان ومقيم في المغرب.',
+            description2: 'بخبرة تمتد لعدة سنوات في تدريب الغوص والصيد البحري وإنتاج المحتوى المائي، أضع خبرتي في خدمة اكتشافك للبيئة البحرية.',
+            description3: 'هدفي: نقل شغفي بالغوص في بيئة آمنة مع احترام النظام البيئي البحري وتعزيز تطورك الشخصي.',
             stats: {
-                experience: '٥+',
+                experience: '5+',
                 experienceLabel: 'سنوات من الخبرة',
                 cmasLabel: 'مدرب CMAS',
-                students: '٢٠٠+',
+                students: '50+',
                 studentsLabel: 'غواص مدرب'
             },
             certified: 'معتمد من CMAS'
         },
         gallery: {
-            title: 'المعرض',
-            subtitle: 'اكتشف مغامراتي تحت الماء',
-            videosTitle: 'مقاطع الفيديو',
+            title: 'معرض الصور',
+            subtitle: 'استكشف مغامراتي تحت الماء',
+            videosTitle: 'الفيديوهات',
             videosSubtitle: 'تابع مغامراتي على يوتيوب',
             videoPlaceholder: 'فيديو يوتيوب',
-            channelButton: 'زر قناتي على يوتيوب'
+            channelButton: 'زيارة قناتي على يوتيوب'
         },
         certifications: {
             title: 'شهادات CMAS',
-            subtitle: 'الاتحاد العالمي للأنشطة تحت الماء',
+            subtitle: 'الاتحاد العالمي للأنشطة المائية - معايير دولية',
             instructor: {
-                title: 'مراقب مدرب',
-                description: 'شهادة مدرب غوص دولي CMAS نجمتان. مؤهل لتدريب وإصدار شهادات الغواصين من جميع المستويات.'
+                title: 'مدرب مستوى نجمتان',
+                description: 'شهادة مدرب غوص دولي من CMAS مستوى نجمتان. مؤهل كامل لتدريب وإصدار شهادات للغواصين من جميع المستويات وفقاً للمعايير الدولية.'
             },
             diver: {
-                title: 'غواص',
-                description: 'شهادة غواص CMAS ثلاث نجوم. مهارات متقدمة في الغوص المستقل والتقني.'
+                title: 'غواص مستوى 3 نجوم',
+                description: 'شهادة غواص CMAS مستوى 3 نجوم. إتقان متقدم للغوص المستقل مع مهارات الغوص التقني والعميق.'
             },
-            cmasInfo: 'CMAS (الاتحاد العالمي للأنشطة تحت الماء) هي منظمة دولية معترف بها عالمياً لمعايير التميز في الغوص تحت الماء.'
+            cmasInfo: 'CMAS (الاتحاد العالمي للأنشطة المائية) هي المنظمة الدولية الرائدة في الغوص، معترف بها في أكثر من 130 دولة لمعايير التميز والسلامة.'
         },
         testimonials: {
-            title: 'الشهادات',
-            subtitle: 'ماذا يقول عملائي',
+            title: 'آراء العملاء',
+            subtitle: 'تجارب وانطباعات عملائي',
             review1: {
-                text: 'عثمان مدرب استثنائي! محترف جداً، صبور ومتحمس. بفضله، حصلت على شهادة الغوص بكل ثقة. أوصي بشدة بخدماته.',
+                text: 'مدرب استثنائي! محترف جداً ومتمكن وشغوف. بفضل عثمان حصلت على شهادة الغوص بثقة تامة. أنصح بشدة بخدماته لكل من يريد اكتشاف عالم الغوص.',
                 name: 'محمد أ.',
                 location: 'الدار البيضاء، المغرب'
             },
             review2: {
-                text: 'خدمة استعادة الأشياء لا تشوبها شائبة! كنت قد فقدت مفاتيحي في المسبح وعثمان وجدها في أقل من ٣٠ دقيقة. محترف جداً ومستجيب.',
+                text: 'خدمة استرجاع رائعة! فقدت مفاتيح سيارتي في المسبح ووجدها عثمان في أقل من 30 دقيقة. محترف وسريع وفعال.',
                 name: 'سارة ل.',
                 location: 'الرباط، المغرب'
             },
             review3: {
-                text: 'مدرب صيد تحت الماء ممتاز. علمني عثمان جميع تقنيات السلامة والصيد المسؤول. تجربة رائعة مع محترف حقيقي.',
+                text: 'مدرب صيد بحري ممتاز. علمني عثمان كل تقنيات السلامة ومبادئ الصيد المسؤول. تجربة مثرية مع محترف حقيقي.',
                 name: 'يوسف ك.',
                 location: 'أكادير، المغرب'
             }
         },
         contact: {
-            title: 'اتصل بي',
-            subtitle: 'مستعد للغوص؟ لنناقش مشروعك',
+            title: 'تواصل معي',
+            subtitle: 'مستعد للغوص؟ دعنا نناقش مشروعك',
             whatsapp: 'واتساب',
-            whatsappNote: 'طريقة الاتصال المفضلة',
+            whatsappNote: 'وسيلة التواصل المفضلة',
             email: 'البريد الإلكتروني',
             location: 'الموقع',
             locationText: 'المغرب',
             followMe: 'تابعني',
             formTitle: 'أرسل رسالة',
             namePlaceholder: 'اسمك',
-            phonePlaceholder: 'هاتفك',
+            phonePlaceholder: 'رقم هاتفك',
             messagePlaceholder: 'رسالتك',
-            serviceSelect: 'اختر خدمة',
-            serviceDiving: 'مدرب غوص',
-            serviceSpearfishing: 'صيد تحت الماء',
-            serviceRecovery: 'استعادة تحت الماء',
-            serviceContent: 'إنشاء المحتوى',
+            serviceSelect: 'اختر الخدمة',
+            serviceDiving: 'تدريب الغوص',
+            serviceSpearfishing: 'الصيد البحري',
+            serviceRecovery: 'استرجاع المفقودات',
+            serviceContent: 'إنتاج المحتوى',
             serviceOther: 'أخرى',
             sendButton: 'إرسال عبر واتساب'
         },
         footer: {
-            description: 'مدرب غوص محترف معتمد من CMAS في المغرب. شريكك لجميع مغامراتك تحت الماء.',
+            description: 'مدرب غوص محترف معتمد من CMAS في المغرب. شريكك الموثوق لجميع مغامراتك البحرية بأمان تام.',
             certified: 'معتمد',
             quickLinks: 'روابط سريعة',
             services: 'الخدمات',
@@ -462,8 +462,8 @@ function changeLanguage(lang) {
 
 // Toggle mobile menu
 function toggleMobileMenu() {
-    const navLinks = document.querySelector('.nav-links');
-    navLinks.classList.toggle('active');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenu.classList.toggle('active');
 }
 
 // Sticky navbar on scroll
@@ -540,17 +540,17 @@ function setupEventListeners() {
     });
     
     // Mobile menu toggle
-    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+    const mobileMenuToggle = document.getElementById('mobileMenuToggle');
     if (mobileMenuToggle) {
         mobileMenuToggle.addEventListener('click', toggleMobileMenu);
     }
     
     // Close mobile menu when clicking on a link
-    document.querySelectorAll('.nav-links a').forEach(link => {
+    document.querySelectorAll('.mobile-menu a').forEach(link => {
         link.addEventListener('click', () => {
-            const navLinks = document.querySelector('.nav-links');
-            if (navLinks.classList.contains('active')) {
-                navLinks.classList.remove('active');
+            const mobileMenu = document.getElementById('mobileMenu');
+            if (mobileMenu.classList.contains('active')) {
+                mobileMenu.classList.remove('active');
             }
         });
     });
