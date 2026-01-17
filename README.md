@@ -1,197 +1,243 @@
-# Sipyanos Diving Morocco - Professional Diving Services Website
+# Image Assets Guide
 
-## 🌊 About This Project
+This folder contains all images for the Sipyanos Diving website.
 
-This is a professional single-page application (SPA) website for **Othmane Sipyanos**, a CMAS-certified diving instructor and underwater professional based in Morocco. The website showcases diving services including instruction, spearfishing monitoring, underwater recovery, and content creation.
-
-## ✨ Features
-
-- **Multi-language Support**: French (default), English, and Arabic with RTL support
-- **Responsive Design**: Mobile-first approach, works perfectly on all devices
-- **Ocean-Themed Design**: Professional blue color palette inspired by the ocean
-- **Smooth Animations**: AOS (Animate On Scroll) library for elegant transitions
-- **WhatsApp Integration**: Direct contact via WhatsApp (preferred method)
-- **Social Media Links**: Facebook, Instagram, and YouTube integration
-- **Service Showcase**: Four main services with detailed descriptions
-- **CMAS Certifications**: Display of professional diving certifications
-- **Gallery Section**: Photo and video gallery with YouTube integration
-- **Testimonials**: Client reviews and feedback
-- **Contact Form**: WhatsApp-enabled contact form
-
-## 📋 Services Offered
-
-1. **Diving Instruction** - CMAS 2-star certified professional training
-2. **Spearfishing Monitoring** - Safe and responsible underwater hunting guidance
-3. **Underwater Recovery** - Search and retrieval of lost items
-4. **Content Creation** - Professional underwater photography and videography
-
-## 🎨 Color Theme
-
-- **Primary Color**: `#0077be` (Ocean Blue)
-- **Secondary Color**: `#1a2332` (Deep Navy)
-- **Accent Color**: `#00d4ff` (Bright Cyan)
-- **Additional**: Turquoise and coral accents
-
-## 🛠️ Technologies Used
-
-- **HTML5**: Semantic markup
-- **CSS3**: Modern styling with custom properties (CSS variables)
-- **Vanilla JavaScript**: No frameworks, pure JavaScript
-- **CDN Libraries**:
-  - Google Fonts (Poppins & Noto Sans Arabic)
-  - Font Awesome 6.4.0 (Icons)
-  - AOS 2.3.1 (Animations)
-
-## 📱 Contact Information
-
-### Primary Contact (Preferred)
-- **WhatsApp**: +212 X XX XX XX XX ⚠️ **UPDATE THIS NUMBER**
-
-### Email
-- **Email**: sipyanoseothmane@gmail.com
-
-### Social Media
-- **Facebook**: [facebook.com/othmane.talix](https://www.facebook.com/othmane.talix)
-- **Instagram**: [@gonzalesstalix](https://www.instagram.com/gonzalesstalix/)
-- **YouTube**: [@othmanesipyanos](https://www.youtube.com/@othmanesipyanos)
-
-## ⚠️ IMPORTANT: Before Going Live
-
-### Required Updates
-
-1. **WhatsApp Number** (Critical!)
-   - Search for `212XXXXXXXXX` in ALL files
-   - Replace with actual WhatsApp number (format: 212XXXXXXXXX)
-   - Files to update: `index.html`, `script.js`
-
-2. **Images**
-   - Replace placeholder images in `assets/images/` folders:
-     - `hero/` - 1920x1080px hero background image
-     - `gallery/` - 3 best diving photos (1200x800px each)
-     - `services/` - Service-related images (800x600px)
-     - `team/` - Profile photo of Othmane (400x400px)
-   - Compress all images using [TinyPNG](https://tinypng.com/)
-   - Ensure all images are <500KB
-
-3. **YouTube Videos** (Optional)
-   - In `index.html`, find the YouTube placeholders section
-   - Add 3 YouTube video embed codes from the channel
-   - Or keep placeholders and link to channel button
-
-4. **Logo**
-   - Add logo image to `assets/images/logo.png`
-   - Update the logo section in `index.html` navbar
-
-5. **Stats in About Section**
-   - Update the numbers in the "About" section if needed:
-     - Years of experience
-     - Number of trained divers
-   - Edit in `index.html` and `script.js` translations
-
-## 📂 Project Structure
+## 📁 Folder Structure
 
 ```
-sipyanos-diving/
-├── index.html          # Main HTML file
-├── styles.css          # All styling
-├── script.js           # JavaScript functionality
-├── README.md           # This file
-├── DEPLOYMENT.md       # Deployment guide
-└── assets/
-    └── images/
-        ├── hero/       # Hero section images
-        ├── gallery/    # Gallery photos
-        ├── services/   # Service images
-        ├── team/       # Profile photos
-        └── README.md   # Image specifications
+assets/images/
+├── hero/           # Hero section background images
+├── gallery/        # Gallery photo collection
+├── services/       # Service-related images
+├── team/           # Team/profile photos
+└── logo.png        # Website logo (optional)
 ```
 
-## 🚀 Quick Start
+## 📐 Image Specifications
 
-1. **Update WhatsApp number** in `index.html` and `script.js`
-2. **Add your images** to the `assets/images/` folders
-3. **Open `index.html`** in a web browser
-4. **Test all features**:
-   - Navigation links
-   - Language switcher (FR/EN/AR)
-   - Contact form
-   - WhatsApp button
-   - Social media links
-5. **Deploy** (see DEPLOYMENT.md)
+### Hero Images (`hero/`)
+- **Size**: 1920x1080px (Full HD)
+- **Format**: JPG or WebP
+- **Max File Size**: 500KB
+- **Content**: Underwater diving scenes, ocean backgrounds
+- **Quantity**: 1 main hero image
+- **Naming**: `hero-background.jpg` or `hero-main.jpg`
 
-## 🌐 Deployment
+### Gallery Images (`gallery/`)
+- **Size**: 1200x800px (3:2 aspect ratio)
+- **Format**: JPG or WebP
+- **Max File Size**: 300KB per image
+- **Content**: Best diving photos, underwater shots, diving activities
+- **Quantity**: 3 images (you can add more later)
+- **Naming**: 
+  - `gallery-1.jpg`
+  - `gallery-2.jpg`
+  - `gallery-3.jpg`
 
-The website can be deployed to any static hosting service:
+### Service Images (`services/`)
+- **Size**: 800x600px (4:3 aspect ratio)
+- **Format**: JPG or WebP
+- **Max File Size**: 200KB per image
+- **Content**: Images representing each service
+- **Quantity**: 4 images (one per service)
+- **Naming**:
+  - `service-diving-instruction.jpg`
+  - `service-spearfishing.jpg`
+  - `service-recovery.jpg`
+  - `service-content-creation.jpg`
 
-- **Netlify** (Recommended) - Drag & drop deployment
-- **Vercel** - Free hosting with custom domain
-- **GitHub Pages** - Free hosting via GitHub
-- **Cloudflare Pages** - Fast global CDN
+### Team/Profile Images (`team/`)
+- **Size**: 400x400px (square)
+- **Format**: JPG or WebP
+- **Max File Size**: 100KB per image
+- **Content**: Professional photo of Othmane Sipyanos
+- **Quantity**: 1 main profile photo
+- **Naming**: `othmane-sipyanos.jpg` or `profile.jpg`
 
-See `DEPLOYMENT.md` for detailed instructions.
+### Logo (`logo.png`)
+- **Size**: 200x200px (or proportional)
+- **Format**: PNG (with transparent background preferred)
+- **Max File Size**: 50KB
+- **Content**: Sipyanos Diving logo
+- **Location**: Place directly in `assets/images/` folder
 
-## ✅ Pre-Launch Checklist
+## 🎨 Image Guidelines
 
-- [ ] WhatsApp number updated everywhere
-- [ ] All images replaced and optimized (<500KB each)
-- [ ] Logo added
-- [ ] Profile photo added
-- [ ] YouTube videos embedded (or kept as placeholders)
-- [ ] All links tested (WhatsApp, email, social media)
-- [ ] Language switcher tested (FR/EN/AR)
-- [ ] Mobile responsiveness checked
-- [ ] Contact form tested
-- [ ] Page loads in <3 seconds
-- [ ] No console errors in browser
-- [ ] Meta tags and SEO optimized
+### Quality Standards
+- **Resolution**: High quality, sharp, well-lit
+- **Professional**: Avoid blurry, pixelated, or amateur photos
+- **Relevant**: Each image should relate to diving/underwater activities
+- **Authentic**: Use real photos when possible (not just stock photos)
 
-## 📖 Language Support
+### Content Suggestions
 
-The website automatically detects the user's browser language and defaults to:
-1. User's saved preference (localStorage)
-2. Browser language (if FR/EN/AR)
-3. French (default fallback)
+**Hero Section:**
+- Underwater scene with diver
+- Beautiful coral reef
+- Ocean surface/waves
+- Diving equipment in action
 
-Users can manually switch languages using the language switcher in the navigation.
+**Gallery:**
+- Diving instruction moments
+- Underwater wildlife
+- Spearfishing scenes
+- Group diving photos
+- Underwater landscapes
 
-## 🎯 Key Sections
+**Services:**
+- Diving Instruction: Teacher with student underwater
+- Spearfishing: Underwater hunting scene
+- Recovery: Diver searching/recovering objects
+- Content Creation: Underwater camera work
 
-1. **Hero** - Eye-catching introduction with call-to-action
-2. **Services** - Four main service offerings
-3. **About** - Professional background and certifications
-4. **Gallery** - Photos and YouTube videos
-5. **Certifications** - CMAS credentials display
-6. **Testimonials** - Client reviews
-7. **Contact** - Multiple contact methods with form
-8. **Footer** - Quick links and social media
+**Profile:**
+- Professional headshot of Othmane
+- In diving gear
+- Clear, friendly, professional appearance
 
-## 🔧 Customization
+## 🔧 Image Optimization
 
-All colors and spacing can be adjusted in `styles.css` using CSS variables in the `:root` section:
+Before adding images to the website, **optimize them** to ensure fast loading:
 
-```css
-:root {
-    --primary-color: #0077be;
-    --secondary-color: #1a2332;
-    --accent-color: #00d4ff;
-    /* ... etc */
-}
+### Recommended Tools:
+
+1. **TinyPNG** (Online - Easiest)
+   - Visit: [https://tinypng.com/](https://tinypng.com/)
+   - Drag and drop your images
+   - Download compressed versions
+   - Can reduce file size by 50-80%!
+
+2. **Squoosh** (Online - Advanced)
+   - Visit: [https://squoosh.app/](https://squoosh.app/)
+   - Fine-tune compression settings
+   - Compare before/after
+
+3. **ImageOptim** (Mac)
+   - Free app for Mac users
+   - Drag and drop images to compress
+
+4. **RIOT** (Windows)
+   - Free image optimization tool
+   - Available at: [https://riot-optimizer.com/](https://riot-optimizer.com/)
+
+### Optimization Checklist:
+- [ ] Resize to specified dimensions
+- [ ] Compress to reduce file size
+- [ ] Ensure quality is still good after compression
+- [ ] Rename files with descriptive names
+- [ ] Check total file size is within limits
+
+## 📝 Current Status
+
+### Required Images (Update after adding):
+- [ ] Hero background image
+- [ ] Gallery image 1
+- [ ] Gallery image 2
+- [ ] Gallery image 3
+- [ ] Service: Diving instruction
+- [ ] Service: Spearfishing
+- [ ] Service: Recovery
+- [ ] Service: Content creation
+- [ ] Profile photo
+- [ ] Logo (optional)
+
+## 🖼️ Using Images in the Website
+
+Once you add images to these folders, you need to update the `index.html` file:
+
+### Example Updates:
+
+**Hero Section:**
+```html
+<!-- Find this in index.html: -->
+background: url('https://source.unsplash.com/...')
+
+<!-- Replace with: -->
+background: url('assets/images/hero/hero-background.jpg')
 ```
 
-## 📞 Support
+**Gallery Images:**
+```html
+<!-- Find these in index.html: -->
+<img src="https://source.unsplash.com/..." alt="...">
 
-For technical questions or issues with this website, contact the web developer through the webRapide MA platform.
+<!-- Replace with: -->
+<img src="assets/images/gallery/gallery-1.jpg" alt="Diving Adventure 1" loading="lazy">
+```
 
-## 🎓 Certifications
+**About Section:**
+```html
+<!-- Find this: -->
+<img src="https://source.unsplash.com/..." alt="...">
 
-- **CMAS 2-Star Instructor** (Moniteur ★★)
-- **CMAS 3-Star Diver** (Plongeur ★★★)
+<!-- Replace with: -->
+<img src="assets/images/team/othmane-sipyanos.jpg" alt="Othmane Sipyanos - Professional Diving Instructor" loading="lazy">
+```
 
-## 📄 License
+## 🌐 Placeholder Images
 
-This website is custom-built for Othmane Sipyanos / Sipyanos Diving Morocco. All rights reserved © 2025.
+Currently, the website uses placeholder images from Unsplash. These are temporary and should be replaced with real images before going live.
+
+**Current placeholders:**
+- Hero: Unsplash underwater/diving stock photos
+- Gallery: Unsplash ocean/diving stock photos
+- About: Unsplash diving instructor stock photo
+
+## 💡 Tips for Great Images
+
+1. **Lighting**: Ensure good visibility, especially for underwater shots
+2. **Composition**: Follow the rule of thirds for better framing
+3. **Action Shots**: Show diving in action, not just static poses
+4. **Variety**: Mix close-ups, wide shots, and different angles
+5. **Colors**: Ocean blues, vibrant coral, clear water
+6. **Safety**: Show proper equipment and safety practices
+7. **Authenticity**: Real photos build trust with potential clients
+
+## 📱 Mobile Considerations
+
+All images are automatically responsive and will look good on mobile devices. The CSS handles:
+- Automatic resizing
+- Proper aspect ratios
+- Fast loading with lazy loading
+- Optimized display on small screens
+
+## ⚠️ Important Notes
+
+1. **Copyright**: Only use images you have rights to use
+   - Your own photos ✅
+   - Stock photos with proper license ✅
+   - Other people's photos without permission ❌
+
+2. **File Names**: 
+   - Use lowercase
+   - Use hyphens, not spaces
+   - Be descriptive
+   - Example: `diving-instructor-morocco.jpg` ✅
+   - Avoid: `IMG_1234.jpg` ❌
+
+3. **Alt Text**: When updating HTML, always add descriptive alt text for accessibility
+
+4. **Backup**: Keep original high-resolution versions in a separate folder before optimizing
+
+## 🎯 Priority Images
+
+If you can only add a few images initially, prioritize in this order:
+
+1. **Hero background** - Most visible, sets the tone
+2. **Profile photo** - Builds personal connection
+3. **Gallery images** - Shows your work
+4. **Service images** - Can work with icons if needed
+
+## 📞 Need Help?
+
+If you need assistance with:
+- Image selection
+- Optimization
+- Updating the HTML
+- Finding stock photos
+
+Contact the webRapide MA support team.
 
 ---
 
-**Built with 💙 by webRapide MA**
-**Following SPA Template Specification v1.0**
+**Remember**: High-quality, optimized images make a huge difference in how professional your website looks and how fast it loads! 📸🌊
