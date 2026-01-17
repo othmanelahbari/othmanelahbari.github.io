@@ -56,6 +56,8 @@
 html {
     scroll-behavior: smooth;
     font-size: 16px;
+    overflow-x: hidden;
+    max-width: 100vw;
 }
 
 body {
@@ -63,6 +65,10 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     background-color: var(--white);
+    overflow-x: hidden;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 
 body.rtl {
@@ -112,6 +118,7 @@ a {
     width: 100%;
     margin: 0 auto;
     padding: 0 var(--spacing-sm);
+    box-sizing: border-box;
 }
 
 .section {
@@ -134,12 +141,14 @@ a {
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;
+    width: 100vw;
     background: rgba(26, 35, 50, 0.95);
     backdrop-filter: blur(10px);
     padding: var(--spacing-sm) 0;
     z-index: 1000;
     box-shadow: var(--shadow-md);
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .navbar .container {
@@ -147,6 +156,8 @@ a {
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -156,6 +167,7 @@ a {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--white);
+    flex-shrink: 0;
 }
 
 .logo i {
@@ -186,6 +198,7 @@ a {
 .language-switcher {
     display: flex;
     gap: var(--spacing-xs);
+    flex-shrink: 0;
 }
 
 .language-switcher button {
